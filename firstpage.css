@@ -1,0 +1,52 @@
+body,p,h1,ul,textarea {
+	margin: 0;
+	padding: 0;
+}
+img {
+	border: none;
+	vertical-align: top;
+}
+/*开场动画*/
+.loading-cover {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background: #1B1B1B;
+	z-index: 1000;
+}
+
+.loading-cover .circle {
+	width: 130px;
+	height: 130px;
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -70px 0 0 -70px;
+	animation: loadingCover 1s linear 1 forwards;
+	background: #FFD200;
+}
+
+.welcome {
+	width: 800px;
+	height: 60px;
+	font: 50px/60px "微软雅黑";
+	text-align: center;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	color: #fff;
+	margin-left: -400px;
+	margin-top: 80px;
+	text-shadow: 4px 1px 3px #fff;
+	overflow: hidden;
+}
+
+.baitiao {
+	width: 800px;
+	height: 60px;
+	background: #1B1B1B;
+	position: absolute;
+	left: 0;
+	top: 0;
+}

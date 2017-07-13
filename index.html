@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="firstpage.css"/>
+		<link rel="stylesheet" type="text/css" href="activepictrue.css"/>
+		<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
+	</head>
+	<body>
+		<div class="loading-cover" id="loadingCover">
+			<span class="circle bgPic">
+				<img src="img0/loading-Home.gif"/>
+			</span>
+			<div class="welcome">
+				<p class="baitiao"></p>
+				欢 迎 浏 览 杨 丰 的 个 人 作 品			
+			</div>
+		</div>		        		
+		<div class="time">
+			<img src="img0/0.JPG" />
+			<img src="img0/0.JPG" />时
+			<img src="img0/0.JPG" />
+			<img src="img0/0.JPG" />分
+			<img src="img0/0.JPG" />
+			<img src="img0/0.JPG" />秒
+		</div>
+		<div class="backGround">
+			<!--<audio id="audio" autoplay="autoplay" src="Jacoo - Peace Of Mind (1).mp3" loop="loop"></audio>-->
+			<section id="round">
+				<div class="c1">
+					<strong>这就是我</strong>
+					<img src="img0/me.png" />
+				</div>
+				<div class="c2">
+					<strong>简易小游戏</strong>
+					<img src="img0/game.png" />
+				</div>
+				<div class="c3">
+					<strong>放大镜效果</strong>
+					<img src="img0/background.jpg" />
+				</div>
+				<div class="c4">
+					<strong>无缝滚动轮播图</strong>
+					<img src="img0/4mian.png" />
+				</div>
+				<div class="c5">
+					<strong>文字搬运效果</strong>
+					<img src="img0/5mian.png" />
+				</div>
+			</section>
+		</div>
+		<!--第一面 自我介绍-->
+		<div class="detail">
+			<button class="return">返回</button>
+			<div class="left mian zhuan">
+				<div class="mian1 zhuan">
+					<span class="glyphicon glyphicon-user"></span>
+					<h1>自我介绍</h1>
+					<p>我叫杨丰，来自湖北荆州。今年23岁，毕业一年，从事前端工作两年。</p>
+				</div>
+			</div>
+			<div class="center mian zhuan">
+				<div class="zhuan">
+					<span class="glyphicon glyphicon-book"></span>
+					<h1>学历</h1>
+					<p>2016年毕业于武汉纺织大学，纺织工程专业，本科。</p>
+				</div>
+			</div>
+			<div class="right mian zhuan">
+				<div class="mian3 zhuan">
+					<span class="glyphicon glyphicon-music"></span>
+					<h1>爱好</h1>
+					<p>网络游戏，篮球，唱歌。</p>
+				</div>
+			</div>
+		</div>
+		<!--第二面 小游戏-->
+		<div class="detail">
+			<button class="return">返回</button>
+			<div id="box1">
+				<p><span>0</span>分 得分</p>
+				<p class="p1"><span>0</span>分 失分</p>
+				<div id="div"></div>
+				<button id="btn">开始游戏</button>
+			</div>
+		</div>
+		<!--第三面 放大镜-->
+		<div class="detail">
+			<button class="return">返回</button>
+			<section id="box2">
+				<section class="small">
+					<img class="imgsmall" src="img0/background.jpg"/>
+					<section style="left:0;top:0;" class="smallD"></section>
+				</section>
+				<section class="big">
+					<img class="imgbig" src="img0/background.jpg"/>
+				</section>
+			</section>
+		</div>
+		<!--第四面 轮播图-->
+		<div class="detail">
+			<button class="return">返回</button>
+			<div id="box3">
+				<div class="lbt">
+					<img src="img1/4.jpg" />
+					<img src="img1/1.jpg" />
+					<img src="img1/2.jpg" />
+					<img src="img1/3.jpg" />
+					<img src="img1/4.jpg" />
+					<img src="img1/1.jpg" />
+				</div>
+				<button class="button1">&lt;</button>
+				<button class="button2">&gt;</button>
+				<ul>
+					<li class="red"></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+		</div>
+		<!--第五面 文字搬运-->
+		<div class="detail">
+			<button class="return">返回</button>
+			<div id="box4">
+				<div class="divL">
+					<textarea></textarea>
+				</div>
+				<div class="divC">
+					<button>把文字右移</button>
+					<p>0/0</p>
+					<ul>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</div>
+				<div id="divR" class="divR"></div>
+			</div>
+		</div>
+			
+		<script src="jquery-1.7.2.min.js" type="text/javascript"></script>
+		<script src="jsLibrary.js" type="text/javascript"></script>
+		<script src="active.js" type="text/javascript"></script>
+		<script src="firstpage.js" type="text/javascript"></script>
+	</body>
+</html>
